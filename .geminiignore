@@ -1,0 +1,7 @@
+Dockerfile
+docker-compose.yml
+backend/Dockerfile
+.dockerignore
+**/Dockerfile
+**/docker-compose.yml
+**/.dockerignore

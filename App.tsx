@@ -584,7 +584,7 @@ const App: React.FC = () => {
   ].filter(item => item.roles.includes(currentUser.role));
 
   const appDisplayName = `MgBaDin(3) (${currentUser.role === 'ADMIN' ? 'Admin' : 'User'})`;
-  s
+
   return (
     <div className="min-h-screen flex flex-col md:flex-row bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200 transition-colors duration-300">
       {/* Desktop Sidebar */}
